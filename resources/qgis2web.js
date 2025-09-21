@@ -460,6 +460,76 @@ map.addControl(Title)
 
 
 //geolocate
+var geolocateControl = new ol.control.Control({
+    element: (() => {
+        var geolocateElement = document.createElement('div');
+        geolocateElement.className = 'ol-control ol-geolocate';
+        geolocateElement.innerHTML = '<button type="button" title="Show my location"><i class="fas fa-location-arrow"></i></button>';
+        return geolocateElement;
+    })()
+});
+
+// Create a vector source for the location marker
+var locationSource = new ol.source.Vector();
+var locationLayer = new ol.layer.Vector({
+    source: locationSource,
+    style: new ol.style.Style({
+        image: new ol.style.Circle({
+            radius: 8,
+            fill: new ol.style.Fill({
+                color: '#4285f4'
+            }),
+            stroke: new ol.style.Stroke({
+                color: '#ffffff',
+                width: 3
+            })
+        })
+    })
+});
+
+// Add location layer to map
+map.addLayer(locationLayer);
+
+// Add location layer to layers list for layer switcher
+locationLayer.set('title', '<div style="display: inline-block; width: 16px; height: 16px; background-color: #4285f4; border: 3px solid #ffffff; border-radius: 50%; margin-right: 5px; vertical-align: middle;"></div> Current Location');
+locationLayer.setVisible(true);
+layersList.push(locationLayer);
+
+// Add click handler to geolocate button
+geolocateControl.element.addEventListener('click', function() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+            function(position) {
+                var coordinates = [position.coords.longitude, position.coords.latitude];
+                
+                // Convert to map projection
+                var mapCoordinates = ol.proj.fromLonLat(coordinates);
+                
+                // Clear previous location markers
+                locationSource.clear();
+                
+                // Create new location feature
+                var locationFeature = new ol.Feature({
+                    geometry: new ol.geom.Point(mapCoordinates)
+                });
+                
+                // Add to source
+                locationSource.addFeature(locationFeature);
+                
+                // Center map on location
+                map.getView().setCenter(mapCoordinates);
+                map.getView().setZoom(15);
+            },
+            function(error) {
+                console.error('Geolocation error:', error);
+                alert('Unable to get your location. Please check your browser settings and ensure location services are enabled.');
+            }
+        );
+    } else {
+        alert('Geolocation is not supported by this browser.');
+    }
+});
+
 
 
 
@@ -552,7 +622,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     //geolocate
     if (typeof geolocateControl !== 'undefined') {
-        topLeftContainerDiv.appendChild(geolocateControl);
+        topLeftContainerDiv.appendChild(geolocateControl.element);
     }
     //measure
     if (typeof measureControl !== 'undefined') {
