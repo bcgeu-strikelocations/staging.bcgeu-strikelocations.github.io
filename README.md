@@ -1,7 +1,7 @@
 
 # BCGEU Strike Locations
 
-**Website is published automatically at [https://bcgeu-strikelocations.github.io/strikelocations/](https://bcgeu-strikelocations.github.io/strikelocations/)**
+**Website is published automatically at [https://bcgeu-strikelocations.github.io/](https://bcgeu-strikelocations.github.io/)**
 
 This repo aims at displaying a map of most up-to-date BCGEU strike locations and a 30km radius around them.
 The goal is to facilitate finding the closest picket line for a remote member.
