@@ -22,9 +22,9 @@ var lyr_BCGEUStrikeLocations30km_1 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_BCGEUStrikeLocations30km_1, 
                 style: style_BCGEUStrikeLocations30km_1,
-                popuplayertitle: 'BCGEU Strike Locations - 30km',
-                interactive: false,
-                title: '<img src="styles/legend/BCGEUStrikeLocations30km_1.png" /> BCGEU Strike Locations - 30km'
+                popuplayertitle: 'BCGEU Strike Locations 30km',
+                interactive: true,
+                title: '<img src="styles/legend/BCGEUStrikeLocations30km_1.png" /> BCGEU Strike Locations 30km'
             });
 var format_BCGEUStrikeLocations_2 = new ol.format.GeoJSON();
 var features_BCGEUStrikeLocations_2 = format_BCGEUStrikeLocations_2.readFeatures(json_BCGEUStrikeLocations_2, 
@@ -44,11 +44,11 @@ var lyr_BCGEUStrikeLocations_2 = new ol.layer.Vector({
 
 lyr_OpenStreetMap_0.setVisible(true);lyr_BCGEUStrikeLocations30km_1.setVisible(true);lyr_BCGEUStrikeLocations_2.setVisible(true);
 var layersList = [lyr_OpenStreetMap_0,lyr_BCGEUStrikeLocations30km_1,lyr_BCGEUStrikeLocations_2];
-lyr_BCGEUStrikeLocations30km_1.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Address': 'Address', });
+lyr_BCGEUStrikeLocations30km_1.set('fieldAliases', {'id': 'id', 'Address': 'Address', });
 lyr_BCGEUStrikeLocations_2.set('fieldAliases', {'id': 'id', 'Address': 'Address', });
-lyr_BCGEUStrikeLocations30km_1.set('fieldImages', {'fid': '', 'id': '', 'Address': '', });
+lyr_BCGEUStrikeLocations30km_1.set('fieldImages', {'id': '', 'Address': '', });
 lyr_BCGEUStrikeLocations_2.set('fieldImages', {'id': 'Hidden', 'Address': 'TextEdit', });
-lyr_BCGEUStrikeLocations30km_1.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Address': 'no label', });
+lyr_BCGEUStrikeLocations30km_1.set('fieldLabels', {'id': 'no label', 'Address': 'no label', });
 lyr_BCGEUStrikeLocations_2.set('fieldLabels', {'Address': 'header label - always visible', });
 lyr_BCGEUStrikeLocations_2.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
