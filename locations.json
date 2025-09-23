@@ -1,0 +1,277 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "city": "Burnaby",
+      "address": "4370 Dominion Street",
+      "coordinates": [-123.0067, 49.2560],
+      "notes": "on strike but picketing at existing picket lines"
+    },
+    {
+      "id": 2,
+      "city": "Burnaby",
+      "address": "3383 Gilmore",
+      "coordinates": [-123.0113, 49.2542],
+      "notes": "8am"
+    },
+    {
+      "id": 3,
+      "city": "Burnaby",
+      "address": "4940 Canada Way",
+      "coordinates": [-122.9732, 49.2454],
+      "notes": "on strike but picketing at 3383 Gilmore"
+    },
+    {
+      "id": 4,
+      "city": "Cranbrook",
+      "address": "117 10th Ave S",
+      "coordinates": [-115.7678, 49.5095],
+      "notes": "Monday to Friday, 8am-4pm"
+    },
+    {
+      "id": 5,
+      "city": "Cranbrook",
+      "address": "100 Cranbrook St N",
+      "coordinates": [-115.7662, 49.5137],
+      "notes": "only members working for Southeast Mines Office are on strike and picketing at 117 10th Ave S"
+    },
+    {
+      "id": 6,
+      "city": "Delta",
+      "address": "7003 72 St",
+      "coordinates": [-123.0700, 49.1947],
+      "notes": "24 hours a day, 7 days a week"
+    },
+    {
+      "id": 7,
+      "city": "Fort St. John",
+      "address": "10003 110th Ave",
+      "coordinates": [-120.8484, 56.2549],
+      "notes": "Monday to Friday, 8am-4pm"
+    },
+    {
+      "id": 8,
+      "city": "Kamloops",
+      "address": "441 Columbia Street",
+      "coordinates": [-120.3273, 50.6745],
+      "notes": "Monday to Friday, 7:30am-5pm"
+    },
+    {
+      "id": 9,
+      "city": "Kamloops",
+      "address": "447 Columbia Street",
+      "coordinates": [-120.3273, 50.6745],
+      "notes": "Monday to Friday, 7:30am-5pm"
+    },
+    {
+      "id": 10,
+      "city": "Kamloops",
+      "address": "9881 Dallas Drive",
+      "coordinates": [-120.3273, 50.6745],
+      "notes": "begins first shift change on September 22; otherwise, 24 hours a day, 7 days a week"
+    },
+    {
+      "id": 11,
+      "city": "Kelowna",
+      "address": "478 Bernard Ave",
+      "coordinates": [-119.4960, 49.8880],
+      "notes": "Monday to Friday, 8am-4pm"
+    },
+    {
+      "id": 12,
+      "city": "Nanaimo",
+      "address": "2080 Labieux Road",
+      "coordinates": [-123.9442, 49.1659],
+      "notes": "Monday to Friday, 8am-5pm"
+    },
+    {
+      "id": 13,
+      "city": "Nanaimo",
+      "address": "2100 Labieux Road",
+      "coordinates": [-123.9442, 49.1659],
+      "notes": "Monday to Friday, 8am-5pm"
+    },
+    {
+      "id": 14,
+      "city": "Nelson",
+      "address": "566 Stanley Street",
+      "coordinates": [-117.2919, 49.4999],
+      "notes": "Monday to Friday, 8am-4pm"
+    },
+    {
+      "id": 15,
+      "city": "Nelson",
+      "address": "333 Victoria Street",
+      "coordinates": [-117.2919, 49.4999],
+      "notes": "Monday to Friday, 7am-4pm"
+    },
+    {
+      "id": 16,
+      "city": "Prince George",
+      "address": "1011 4th Ave",
+      "coordinates": [-122.7505, 53.9171],
+      "notes": "Monday-Friday, 7am-5:30pm"
+    },
+    {
+      "id": 17,
+      "city": "Richmond",
+      "address": "3389 No 6 Rd",
+      "coordinates": [-123.1367, 49.1745],
+      "notes": "6am-10pm"
+    },
+    {
+      "id": 18,
+      "city": "Smithers",
+      "address": "3726 Alfred Ave",
+      "coordinates": [-127.1767, 54.7804],
+      "notes": "Monday to Friday, 8:30am-4:30pm"
+    },
+    {
+      "id": 19,
+      "city": "Surrey",
+      "address": "14323 57 Ave",
+      "coordinates": [-122.8440, 49.1913],
+      "notes": "Monday to Friday, 6:20am-4pm and Saturday to Sunday, 10am-2pm"
+    },
+    {
+      "id": 20,
+      "city": "Surrey",
+      "address": "10470 152 St",
+      "coordinates": [-122.8440, 49.1913],
+      "notes": "Monday to Friday, 8am-4pm"
+    },
+    {
+      "id": 21,
+      "city": "Surrey",
+      "address": "10475 138 Street",
+      "coordinates": [-122.8440, 49.1913],
+      "notes": "on strike but picketing at other locations"
+    },
+    {
+      "id": 22,
+      "city": "Vancouver",
+      "address": "900 Howe Street",
+      "coordinates": [-123.1207, 49.2827],
+      "notes": "Monday to Friday, 8am-4pm"
+    },
+    {
+      "id": 23,
+      "city": "Vancouver",
+      "address": "865 Hornby Street",
+      "coordinates": [-123.1207, 49.2827],
+      "notes": "only members working for Mineral Development Office & Mineral Titles Office are on strike and picketing at 900 Howe Street"
+    },
+    {
+      "id": 24,
+      "city": "Vancouver",
+      "address": "815 Hornby",
+      "coordinates": [-123.1207, 49.2827],
+      "notes": "Monday to Friday, 8am-4pm"
+    },
+    {
+      "id": 25,
+      "city": "Vancouver",
+      "address": "605 Robson",
+      "coordinates": [-123.1207, 49.2827],
+      "notes": "on strike but picketing at nearest picket line"
+    },
+    {
+      "id": 26,
+      "city": "Victoria",
+      "address": "617 Government",
+      "coordinates": [-123.3656, 48.4284],
+      "notes": "Monday to Friday, 7:30am-5pm"
+    },
+    {
+      "id": 27,
+      "city": "Victoria",
+      "address": "4000 Seymour",
+      "coordinates": [-123.3656, 48.4284],
+      "notes": "Monday to Friday, 7:30am-5pm"
+    },
+    {
+      "id": 28,
+      "city": "Victoria",
+      "address": "1802 Douglas",
+      "coordinates": [-123.3656, 48.4284],
+      "notes": "Monday to Friday, 7:30am-5pm"
+    },
+    {
+      "id": 29,
+      "city": "Victoria",
+      "address": "1810 Blanshard",
+      "coordinates": [-123.3656, 48.4284],
+      "notes": "Monday to Friday, 7:30am-5pm"
+    },
+    {
+      "id": 30,
+      "city": "Victoria",
+      "address": "3350 Douglas",
+      "coordinates": [-123.3656, 48.4284],
+      "notes": "Monday to Friday, 7:30am-5pm"
+    },
+    {
+      "id": 31,
+      "city": "Victoria",
+      "address": "4464 Markham Street",
+      "coordinates": [-123.3656, 48.4284],
+      "notes": "on strike but picketing at existing picket lines"
+    },
+    {
+      "id": 32,
+      "city": "Victoria",
+      "address": "716 Courtney",
+      "coordinates": [-123.3656, 48.4284],
+      "notes": "Monday to Friday, 7:30am-5pm"
+    },
+    {
+      "id": 33,
+      "city": "Victoria",
+      "address": "675 Belleville (Royal BC Museum)",
+      "coordinates": [-123.3656, 48.4284],
+      "notes": "Monday to Friday, 7am-6pm and Saturday to Sunday, 9am-6pm"
+    },
+    {
+      "id": 34,
+      "city": "Victoria",
+      "address": "976 Meares",
+      "coordinates": [-123.3656, 48.4284],
+      "notes": "on strike but picketing at 4000 Seymour"
+    },
+    {
+      "id": 35,
+      "city": "Victoria",
+      "address": "836 Yates",
+      "coordinates": [-123.3656, 48.4284],
+      "notes": "on strike but picketing at 617 Government"
+    },
+    {
+      "id": 36,
+      "city": "Victoria",
+      "address": "2219 Government",
+      "coordinates": [-123.3656, 48.4284],
+      "notes": "on strike but picketing at 675 Belleville"
+    },
+    {
+      "id": 37,
+      "city": "Victoria",
+      "address": "800 Johnson",
+      "coordinates": [-123.3656, 48.4284],
+      "notes": "on strike but picketing at 675 Belleville"
+    },
+    {
+      "id": 38,
+      "city": "Victoria",
+      "address": "835 Humbolt",
+      "coordinates": [-123.3656, 48.4284],
+      "notes": "Monday to Friday, 7:30am-5pm"
+    },
+    {
+      "id": 39,
+      "city": "Williams Lake",
+      "address": "640 Borland Street",
+      "coordinates": [-122.1445, 52.1415],
+      "notes": "Monday to Friday, 7:30am-5pm"
+    }
+  ]
+}
