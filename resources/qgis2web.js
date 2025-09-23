@@ -9,7 +9,7 @@ var map = new ol.Map({
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([-14023490.356712, 6082855.426732, -13311973.582511, 6522882.839604], map.getSize());
+map.getView().fit([-14021586.467888, 6102743.724480, -12922031.709211, 6706846.931816], map.getSize());
 
 ////small screen definition
     var hasTouchScreen = map.getViewport().classList.contains('ol-touch');
@@ -483,12 +483,12 @@ map.addControl(Title)
 	  }),
 	});
 
-    const geolocateOverlay = new ol.layer.Vector({
+  const geolocateOverlay = new ol.layer.Vector({
 	  source: new ol.source.Vector({
 		features: [accuracyFeature, positionFeature],
 	  }),
 	});
-
+	
 	const geolocation = new ol.Geolocation({
 	  projection: map.getView().getProjection(),
 	});
