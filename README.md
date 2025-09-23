@@ -1,4 +1,3 @@
-
 # BCGEU Strike Locations
 
 **Website is published automatically at [https://bcgeu-strikelocations.github.io/](https://bcgeu-strikelocations.github.io/)**
@@ -6,51 +5,37 @@
 This repo aims at displaying a map of most up-to-date BCGEU strike locations and a 30km radius around them.
 The goal is to facilitate finding the closest picket line for a remote member.
 
-It was generated with the qgis2web extension.
-QGIS project and data files are available in the [qgis-project](qgis-project) folder
+## 🗺️ Features
 
-# Strike locations
+- **Interactive Map**: Built with Leaflet
+- **30km Radius Circles**: Visual representation of strike coverage areas
+- **User Location**: Find your current location and see distance to nearest strike
 
-Strike locations made public as of Sept 20, 2025 are in the dataset:
+## 🚀 Quick Start
 
-### Vancouver Island
+1. Open `index.html` in your browser or visit the GitHub Pages URL
+2. The map will automatically load all strike locations
+3. Click on markers to see address details
+4. Click "📍 Find My Location" to see your current position
+5. Use the legend to understand the map symbols
 
-    - 1810 Blanshard St, Victoria 
-    - 675 Belleville St, Victoria 
-    - 716 Courtney St, Victoria
-    - 1802 Douglas St, Victoria 
-    - 3350 Douglas St, Victoria 
-    - 4464 Markham St, Victoria (on strike but picketing at other sites)
-    - 617 Government St, Victoria
-    - 976 Meares St, Victoria
-    - 4000 Seymour Pl, Victoria 
-    - 836 Yates St, Victoria 
-    - 2080 & 2100 Labieux Rd, Nanaimo
+### Local Development Server
 
-### Lower Mainland
+If you have Python 3 installed, you can use its built-in server:
 
-    - 900 Howe St, Vancouver
-    - 4370 Dominion St, Burnaby (on strike but picketing at other sites)
-    - 14323 57 Ave, Surrey (Surrey Pre-Trial)
-    - 10475 138 St, Surrey (on strike but picketing at other sites)
-    - 10470 152 St, Surrey  
+```bash
+# Python 3
+python3 -m http.server 8000
 
-### Interior
+# Then open http://localhost:8000 in your browser
+```
 
-    - 441 & 447 Columbia St, Kamloops
-    - 640 Borland St, Williams Lake
-    - 478 Bernard Ave, Kelowna
-    - 117 10th Ave S, Cranbrook
-    - 566 Stanley St, Nelson
-    - 10003 110th Ave, Fort St. John
-    - 3726 Alfred Ave, Smithers
-    - 1011 4th Ave, Prince George 
+## 🗂️ Location Data Format
 
-### Specific offices
+Each location in `locations.json` has the following structure:
 
-    - 100 Cranbrook St N, Cranbook - members working for Southeast Mines Office are on strike and picketing at 117 10th Ave S
-    - 865 Hornby Street, Vancouver - members working for Mineral Development Office & Mineral Titles Office are on strike and picketing at 900 Howe Street
-
-# Contributions
-
-Any contribution is welcome! Just fork, open a PR or message me directly.
+- `id`: Unique identifier (number)
+- `city`: City name (string)
+- `address`: Street address (string)
+- `coordinates`: [longitude, latitude] array (numbers)
+- `notes`: Additional information (string, optional)
