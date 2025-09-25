@@ -11,7 +11,7 @@ const style_30k = {
 
 export async function loadGeoJsonLayers() {
     // Fetch points layer
-    const points_response = await fetch("layers/strike_locations.geojson")
+    const points_response = await fetch("layers/strike_locations_generated.geojson")
     const points_data = await points_response.json()
 
     L.geoJSON(points_data.features, {
