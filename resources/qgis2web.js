@@ -9,7 +9,7 @@ var map = new ol.Map({
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([-14021586.467888, 6102743.724480, -12922031.709211, 6706846.931816], map.getSize());
+map.getView().fit([-14208703.030423, 6131686.364013, -12840065.467032, 7663518.573909], map.getSize());
 
 ////small screen definition
     var hasTouchScreen = map.getViewport().classList.contains('ol-touch');
@@ -449,7 +449,7 @@ var Title = new ol.control.Control({
     element: (() => {
         var titleElement = document.createElement('div');
         titleElement.className = 'top-right-title ol-control';
-        titleElement.innerHTML = '<h2 class="project-title">BCGEU Strike Locations</h2>';
+        titleElement.innerHTML = '<h2 class="project-title">BCGEU Strike Locations - Sept 24</h2>';
         return titleElement;
     })(),
     target: 'top-right-container'

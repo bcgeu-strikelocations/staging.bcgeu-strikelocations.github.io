@@ -21,7 +21,7 @@ var style_BCGEUStrikeLocations30km_1 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(255,0,1,0.20392156862745098)'}),
+        fill: new ol.style.Fill({color: 'rgba(255,2,0,0.13725490196078433)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
