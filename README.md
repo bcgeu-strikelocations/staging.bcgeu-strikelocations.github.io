@@ -24,7 +24,7 @@ The main file for locations is `locations.json`
 To regenerate the layers:
 - `cd transform`
 - `npm install`
-- `npm run-script run`
+- `npm run transform`
 
 then commit 
 

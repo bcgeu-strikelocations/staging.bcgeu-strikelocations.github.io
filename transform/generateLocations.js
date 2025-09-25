@@ -3,27 +3,25 @@ import {Buffer} from "buffer"
 
 
 export default async function generateLocations() {
-    const data = JSON.parse(await readFile("../locations.json"))
-    
-    const geoJson = {
-        "type": "FeatureCollection",
-        "name": "Strike Locations",
-        "features": 
-            data.map((struck_site) => ({
-                "type": "Feature",
-                "properties": {
-                    ...struck_site
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": struck_site.coordinates
-                }
-            }))
-        
-    }
+  const data = JSON.parse(await readFile("../locations.json"))
 
-    console.log(geoJson)
+  const geoJson = {
+    "type": "FeatureCollection",
+    "name": "Strike Locations",
+    "features":
+      data.locations.map((struckSite) => ({
+        "type": "Feature",
+        "properties": {
+          ...struckSite
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": struckSite.coordinates
+        }
+      }))
 
-    const fileContent = new Uint8Array(Buffer.from(JSON.stringify(geoJson, null, 2)))
-    await writeFile("../layers/strike_locations_generated.geojson", fileContent)
+  }
+
+  const fileContent = new Uint8Array(Buffer.from(JSON.stringify(geoJson, null, 2)))
+  await writeFile("../layers/strike_locations_generated.geojson", fileContent)
 }
