@@ -19,12 +19,12 @@ export function createRadiusCircle(center, radiusKm = 30) {
     });
 }
 
-export function createPopupContent(location) {
+export function createPopupContent(properties) {
     return `
         <div class="popup-content">
-            <div class="popup-address">${location.address}</div>
-            <div><strong>City:</strong> ${location.city}</div>
-            ${location.notes ? `<div class="popup-notes">${location.notes}</div>` : ''}
+            <div class="popup-address">${properties.address}</div>
+            <div><strong>City:</strong> ${properties.city}</div>
+            ${properties.hours_detail ? `<div class="popup-notes">${properties.hours_detail}</div>` : ''}
         </div>
     `;
 }
