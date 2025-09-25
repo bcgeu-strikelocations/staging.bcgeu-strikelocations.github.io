@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "name": "Strike Locations",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "900 Howe Street",
+                "Details": "Monday to Friday, 8am-4pm"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.122574486100604,
+                    49.280730243111961
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1810 Blanshard St, Victoria",
+                "Details": "Monday to Friday, 7:30am-5pm"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.362057930555395,
+                    48.430564338136428
+                ]
+            }
+        }
+    ]
+}
