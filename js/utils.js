@@ -24,7 +24,7 @@ export function createPopupContent(properties) {
         <div class="popup-content">
             <div class="popup-address">${properties.address}</div>
             <div><strong>City:</strong> ${properties.city}</div>
-            ${properties.hours_detail ? `<div class="popup-notes">${properties.hours_detail}</div>` : ''}
+            ${properties.hours_details ? `<div class="popup-notes">${properties.hours_details}</div>` : ''}
         </div>
     `;
 }

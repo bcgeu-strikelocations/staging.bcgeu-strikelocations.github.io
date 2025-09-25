@@ -19,6 +19,15 @@ The goal is to facilitate finding the closest picket line for a remote member.
 4. Click "📍 Find My Location" to see your current position
 5. Use the legend to understand the map symbols
 
+## Update locations
+The main file for locations is `locations.json`
+To regenerate the layers:
+- `cd transform`
+- `npm install`
+- `npm run-script run`
+
+then commit 
+
 ### Local Development Server
 
 If you have Python 3 installed, you can use its built-in server:

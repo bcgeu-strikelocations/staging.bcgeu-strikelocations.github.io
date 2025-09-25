@@ -11,7 +11,7 @@ const style_30k = {
 
 export async function loadGeoJsonLayers() {
     // Fetch points layer
-    const points_response = await fetch("layers/strike_locations.geojson")
+    const points_response = await fetch("layers/strike_locations_generated.geojson")
     const points_data = await points_response.json()
 
     L.geoJSON(points_data.features, {
@@ -22,7 +22,7 @@ export async function loadGeoJsonLayers() {
     }).addTo(map)
 
     // Fetch 30km radius layer
-    const radius_response = await fetch("layers/strike_locations_30k.geojson")
+    const radius_response = await fetch("layers/strike_locations_30k_generated.geojson")
     const radius_data = await radius_response.json()
 
     L.geoJSON(radius_data.features, {style: style_30k}).addTo(map)
