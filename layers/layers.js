@@ -44,12 +44,12 @@ var lyr_BCGEUStrikeLocations_2 = new ol.layer.Vector({
 
 lyr_OpenStreetMap_0.setVisible(true);lyr_BCGEUStrikeLocations30km_1.setVisible(true);lyr_BCGEUStrikeLocations_2.setVisible(true);
 var layersList = [lyr_OpenStreetMap_0,lyr_BCGEUStrikeLocations30km_1,lyr_BCGEUStrikeLocations_2];
-lyr_BCGEUStrikeLocations30km_1.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Address': 'Address', });
-lyr_BCGEUStrikeLocations_2.set('fieldAliases', {'id': 'id', 'Address': 'Address', });
-lyr_BCGEUStrikeLocations30km_1.set('fieldImages', {'fid': '', 'id': '', 'Address': '', });
-lyr_BCGEUStrikeLocations_2.set('fieldImages', {'id': 'Hidden', 'Address': 'TextEdit', });
-lyr_BCGEUStrikeLocations30km_1.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Address': 'no label', });
-lyr_BCGEUStrikeLocations_2.set('fieldLabels', {'Address': 'header label - always visible', });
+lyr_BCGEUStrikeLocations30km_1.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Address': 'Address', 'Details': 'Details', });
+lyr_BCGEUStrikeLocations_2.set('fieldAliases', {'id': 'id', 'Address': 'Address', 'Details': 'Details', });
+lyr_BCGEUStrikeLocations30km_1.set('fieldImages', {'fid': '', 'id': '', 'Address': '', 'Details': '', });
+lyr_BCGEUStrikeLocations_2.set('fieldImages', {'id': 'Hidden', 'Address': 'TextEdit', 'Details': '', });
+lyr_BCGEUStrikeLocations30km_1.set('fieldLabels', {'fid': 'no label', 'id': 'no label', 'Address': 'no label', 'Details': 'no label', });
+lyr_BCGEUStrikeLocations_2.set('fieldLabels', {'Address': 'header label - always visible', 'Details': 'header label - always visible', });
 lyr_BCGEUStrikeLocations_2.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
