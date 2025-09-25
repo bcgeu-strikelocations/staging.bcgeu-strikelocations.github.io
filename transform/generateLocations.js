@@ -3,7 +3,7 @@ import {Buffer} from "buffer"
 
 
 export default async function generateLocations() {
-    const data = JSON.parse(await readFile("../layers/sample_locations.json"))
+    const data = JSON.parse(await readFile("../locations.json"))
     
     const geoJson = {
         "type": "FeatureCollection",
