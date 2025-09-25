@@ -1,3 +1,6 @@
-import generateLocations from "./generateLocations.js";
+import generateLocationsLayer from "./generateLocations.js";
+import generateBufferLayer from "./generateBuffer.js";
 
-await generateLocations()
+await generateLocationsLayer()
+await generateBufferLayer()
+

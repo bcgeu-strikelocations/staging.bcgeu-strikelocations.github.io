@@ -11,7 +11,7 @@
   },
   {
     "coordinates": [
-      -123.362057930555,
+      -123.062057930555,
       48.4305643381364
     ],
     "city": "Victoria",
@@ -23,6 +23,16 @@
     "coordinates": [
       -123.367978494321,
       48.4200567822852
+    ],
+    "city": "Victoria",
+    "address": "675 Belleville St (Royal BC Museum)",
+    "hours_details": "Monday to Friday, 7am-6pm and Saturday to Sunday, 9am-6pm",
+    "is_picket_line": true
+  },
+  {
+    "coordinates": [
+      -123.367978494321,
+      48.3000567822852
     ],
     "city": "Victoria",
     "address": "675 Belleville St (Royal BC Museum)",
