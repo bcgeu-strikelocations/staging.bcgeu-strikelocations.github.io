@@ -1,0 +1,15 @@
+{
+  "name": "transform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run.js",
+  "scripts": {
+    "run": "node run.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@turf/buffer": "^7.2.0"
+  }
+}
