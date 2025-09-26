@@ -1,6 +1,36 @@
 {
   "locations": [
     {
+      "city": "Abbotsford",
+      "address": "40-32500 South Fraser Way",
+      "coordinates": [
+        -122.32601868159475,
+        49.05060920315223
+      ],
+      "hours_details": "BC Liquor Store #149 Abbotsford 9:30am to 9pm",
+      "is_picket_line": true
+    },
+    {
+      "city": "Abbotsford",
+      "address": "117-2070 Sumas Way",
+      "coordinates": [
+        -122.26877547394928,
+        49.03979191116619
+      ],
+      "hours_details": "BC Liquor Store #189 Abbotsford Village 9:30am to 9pm",
+      "is_picket_line": true
+    },
+    {
+      "city": "Agassiz",
+      "address": "7250 Pioneer Avenue",
+      "coordinates": [
+        -121.75958427312219,
+        49.23867393585482
+      ],
+      "hours_details": "BC Liquor Store #64 Agassiz on strike but picketing at 46040 Yale Rd, Chilliwack",
+      "is_picket_line": false
+    },
+    {
       "city": "Burnaby",
       "address": "4370 Dominion Street",
       "coordinates": [
@@ -81,6 +111,66 @@
       "is_picket_line": true
     },
     {
+      "city": "Campbell River",
+      "address": "270-1400 Dogwood Street",
+      "coordinates": [
+        -125.25110770852733,
+        50.02918462719477
+      ],
+      "hours_details": "BC Liquor Store #5 Campbell River 9:30am to 9pm",
+      "is_picket_line": true
+    },
+    {
+      "city": "Campbell River",
+      "address": "2116 S Island Highway",
+      "coordinates": [
+        -125.21780807263158,
+        49.97156947238686
+      ],
+      "hours_details": "BC Liquor Store #185 Willow Point on strike but picketing at 1400 Dogwood St, Campbell River",
+      "is_picket_line": false
+    },
+    {
+      "city": "Castlegar",
+      "address": "Unit G, 635 Columbia Avenue",
+      "coordinates": [
+        -117.6649303245909,
+        49.32135750604707
+      ],
+      "hours_details": "BC Liquor Store #78 Castlegar 9:30am to 7pm",
+      "is_picket_line": true
+    },
+    {
+      "city": "Chilliwack",
+      "address": "46040 Yale Road",
+      "coordinates": [
+        -121.95366723968563,
+        49.17006621195639
+      ],
+      "hours_details": "BC Liquor Store #7 Chilliwack 9:30am to 9pm",
+      "is_picket_line": true
+    },
+    {
+      "city": "Chilliwack",
+      "address": "45585 Luckakuck Way",
+      "coordinates": [
+        -121.96437299424498,
+        49.14319244673406
+      ],
+      "hours_details": "BC Liquor Store #170 Cottonwood Centre/Sardis on strike but picketing at 46040 Yale Rd, Chilliwack",
+      "is_picket_line": false
+    },
+    {
+      "city": "Comox",
+      "address": "204 Port Augusta Street",
+      "coordinates": [
+        -124.9240997749843,
+        49.674035429594234
+      ],
+      "hours_details": "BC Liquor Store #235 Comox on strike but picketing at 1095 Cliffe Ave, Courtenay",
+      "is_picket_line": false
+    },
+    {
       "city": "Coquitlam",
       "address": "1500 Woolridge",
       "coordinates": [
@@ -88,6 +178,16 @@
         49.23197722831543
       ],
       "hours_details": "Monday to Friday, 8am-4pm",
+      "is_picket_line": true
+    },
+    {
+      "city": "Courtenay",
+      "address": "1095 Cliffe Avenue",
+      "coordinates": [
+        -124.99534067830712,
+        49.68788217208051
+      ],
+      "hours_details": "BC Liquor Store #10 Courtenay 9:30am to 9pm",
       "is_picket_line": true
     },
     {
@@ -118,6 +218,16 @@
         49.536329476650245
       ],
       "hours_details": "on strike but picketing at 117 10th Ave S, Cranbrook",
+      "is_picket_line": false
+    },
+    {
+      "city": "Cumberland",
+      "address": "2700 Dunsmuir Avenue",
+      "coordinates": [
+        -125.0302965365573,
+        49.61897966172796
+      ],
+      "hours_details": "BC Liquor Store #8 Cumberland on strike but picketing at 1095 Cliffe Ave, Courtenay",
       "is_picket_line": false
     },
     {
@@ -159,6 +269,16 @@
       ],
       "hours_details": "BC Liquor Store #145 Scottsdale on strike but picketing at 116 12080 Nordel Way, Surrey",
       "is_picket_line": false
+    },
+    {
+      "city": "Dawson Creek",
+      "address": "1020 Alaska Avenue",
+      "coordinates": [
+        -120.2287560571286,
+        55.75989943552747
+      ],
+      "hours_details": "BC Liquor Store #212 Dawson Creek 9:30am to 9pm",
+      "is_picket_line": true
     },
     {
       "city": "Fort St. John",
@@ -291,6 +411,26 @@
       "is_picket_line": false
     },
     {
+      "city": "Langley",
+      "address": "26310 Fraser Highway",
+      "coordinates": [
+        -122.49552378302845,
+        49.05912806039577
+      ],
+      "hours_details": "BC Liquor Store #109 Aldergrove on strike but picketing at 2070 Sumas Way, Abbotsford",
+      "is_picket_line": false
+    },
+    {
+      "city": "Mission",
+      "address": "32530 Lougheed Highway",
+      "coordinates": [
+        -122.32159147091046,
+        49.132274049273036
+      ],
+      "hours_details": "BC Liquor Store #27 Mission on strike but picketing at 2070 Sumas Way, Abbotsford",
+      "is_picket_line": false
+    },
+    {
       "city": "Nanaimo",
       "address": "2080 Labieux Road",
       "coordinates": [
@@ -339,6 +479,16 @@
       ],
       "hours_details": "BC Liquor Store #97 Royal Square on strike but picketing at 7155 Kingsway, Burnaby",
       "is_picket_line": false
+    },
+    {
+      "city": "New Westminster",
+      "address": "1075 Columbia Street",
+      "coordinates": [
+        -122.91922181059233,
+        49.200701560096384
+      ],
+      "hours_details": "BC Liquor Store #31 New Westminster 9:30am to 9pm",
+      "is_picket_line": true
     },
     {
       "city": "North Vancouver",
@@ -471,6 +621,16 @@
       "is_picket_line": true
     },
     {
+      "city": "Prince Rupert",
+      "address": "100 2nd Avenue W",
+      "coordinates": [
+        -130.3226311927374,
+        54.31591655115688
+      ],
+      "hours_details": "BC Liquor Store #35 Prince Rupert 9:30am to 7pm",
+      "is_picket_line": true
+    },
+    {
       "city": "Richmond",
       "address": "10-8671 No 1 Road",
       "coordinates": [
@@ -518,6 +678,16 @@
         54.7777460423426
       ],
       "hours_details": "Monday to Friday, 8:30am-4:30pm",
+      "is_picket_line": true
+    },
+    {
+      "city": "Sooke",
+      "address": "9050 6660 Sooke Road",
+      "coordinates": [
+        -123.72119787388003,
+        48.37919919381069
+      ],
+      "hours_details": "BC Liquor Store #229 Sooke 9:30am to 9pm",
       "is_picket_line": true
     },
     {
@@ -1028,6 +1198,16 @@
         48.42354860899462
       ],
       "hours_details": "on strike but picketing at 4000 Seymour",
+      "is_picket_line": false
+    },
+    {
+      "city": "Victoria",
+      "address": "1175 Douglas Street",
+      "coordinates": [
+        -123.36461750281573,
+        48.42534946357673
+      ],
+      "hours_details": "on strike but picketing at 1515 Blanshard",
       "is_picket_line": false
     },
     {
