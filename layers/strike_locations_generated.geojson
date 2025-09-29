@@ -5,26 +5,6 @@
     {
       "type": "Feature",
       "properties": {
-        "city": "TEST",
-        "address": "TEST ST",
-        "coordinates": [
-          -122.9448769871355,
-          49.240972246483615
-        ],
-        "hours_details": "TEST",
-        "is_picket_line": true
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.9448769871355,
-          49.240972246483615
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "city": "Abbotsford",
         "address": "40-32500 South Fraser Way",
         "coordinates": [
