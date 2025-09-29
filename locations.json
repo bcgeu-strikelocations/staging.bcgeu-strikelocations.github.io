@@ -1,16 +1,6 @@
 {
   "locations": [
     {
-      "city": "TEST",
-      "address": "TEST ST",
-      "coordinates": [
-        -122.9448769871355,
-        49.240972246483615
-      ],
-      "hours_details": "TEST",
-      "is_picket_line": true
-    },
-    {
       "city": "Abbotsford",
       "address": "40-32500 South Fraser Way",
       "coordinates": [
