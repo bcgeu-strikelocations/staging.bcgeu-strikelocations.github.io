@@ -61,6 +61,9 @@ async function handlePostalCodeSearch() {
         return;
     }
     
+    // Clear previous postal code markers
+    clearPostalCodeMarkers();
+    
     // Disable search button and show loading state
     searchBtn.disabled = true;
     searchBtn.textContent = 'Searching...';

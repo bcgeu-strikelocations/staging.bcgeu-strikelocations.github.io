@@ -1,9 +1,15 @@
 import { map } from './map-config.js';
 import { postalCodeIcon } from './icons.js';
 
+// Geocoder.ca API configuration
+const GEOCODER_CONFIG = {
+    authCode: "538232358933974496202x214750721",
+    baseUrl: 'https://geocoder.ca/'
+};
+
 
 /**
- * Geocodes a Canadian postal code using OpenStreetMap's Nominatim API
+ * Geocodes a Canadian postal code using Geocoder.ca API
  * @param {string} postalCode - The postal code to geocode
  * @returns {Promise<Object>} - Object containing lat, lng, and display name
  */
@@ -21,50 +27,42 @@ async function geocodePostalCode(postalCode) {
         // Add space for proper formatting in search
         const formattedPostalCode = cleanPostalCode.replace(/([A-Z]\d[A-Z])(\d[A-Z]\d)/, '$1 $2');
         
-        // Use Geocoder.ca API for Canadian postal codes
-        let result = null;
-        
-        // Geocoder.ca API (specialized for Canadian postal codes)
         try {
-            const response = await fetch(
-                `https://geocoder.ca/?locate=${encodeURIComponent(formattedPostalCode)}&json=1`
-            );
+            const apiUrl = `${GEOCODER_CONFIG.baseUrl}?locate=${encodeURIComponent(formattedPostalCode)}&json=1&auth=${encodeURIComponent(GEOCODER_CONFIG.authCode)}`;
+            
+            const response = await fetch(apiUrl);
             
             if (response.ok) {
                 const data = await response.json();
+                
+                if (data.error) {
+                    throw new Error(data.error.message || 'API error occurred');
+                }
+                
                 if (data.latt && data.longt) {
-                    // Build display name with available data
                     const city = data.standard?.city || data.city || '';
                     const prov = data.standard?.prov || data.prov || '';
                     const locationParts = [formattedPostalCode];
                     if (city) locationParts.push(city);
                     if (prov) locationParts.push(prov);
                     
-                    result = {
-                        lat: data.latt.toString(),
-                        lon: data.longt.toString(),
-                        display_name: locationParts.join(', '),
-                        address: { postcode: formattedPostalCode },
-                        geocoder_data: data // Store the full response for popup
+                    return {
+                        lat: parseFloat(data.latt),
+                        lng: parseFloat(data.longt),
+                        displayName: locationParts.join(', '),
+                        postalCode: formattedPostalCode,
+                        geocoder_data: data
                     };
                 }
             }
         } catch (error) {
             console.log('Geocoder.ca API failed:', error);
+            if (error.message && error.message.includes('Request Throttled')) {
+                console.warn('Geocoder.ca API is throttled. Consider adding an authentication code.');
+            }
         }
         
-        
-        
-        if (!result) {
-            throw new Error('Postal code not found. Please check the postal code and try again.');
-        }
-        
-        return {
-            lat: parseFloat(result.lat),
-            lng: parseFloat(result.lon),
-            displayName: result.display_name,
-            postalCode: formattedPostalCode
-        };
+        throw new Error('Postal code not found. Please check the postal code and try again.');
     } catch (error) {
         throw error;
     }
@@ -97,20 +95,10 @@ function createPostalCodePopup(location) {
                 <div class="popup-location">
                     <div><strong>City:</strong> ${data.standard?.city || data.city || 'N/A'}</div>
                     <div><strong>Province:</strong> ${data.standard?.prov || data.prov || 'N/A'}</div>
-                    ${data.standard && data.standard.stnumber !== '0' ? 
-                        `<div><strong>Street Number:</strong> ${data.standard.stnumber}</div>` : ''}
                 </div>
-                <div class="popup-coordinates">
-                    <div><strong>Coordinates:</strong></div>
-                    <div class="coord-detail">Lat: ${parseFloat(data.latt).toFixed(6)}</div>
-                    <div class="coord-detail">Lng: ${parseFloat(data.longt).toFixed(6)}</div>
-                </div>
-                ${data.standard && data.standard.confidence ? 
-                    `<div class="popup-confidence">Confidence: ${(parseFloat(data.standard.confidence) * 100).toFixed(0)}%</div>` : ''}
             </div>
         `;
     } else {
-        // Fallback for non-Geocoder.ca results
         return `
             <div class="popup-content">
                 <div class="popup-address">📍 ${location.postalCode}</div>
@@ -141,10 +129,7 @@ export async function searchPostalCode(postalCode) {
         const location = await geocodePostalCode(postalCode);
         const marker = addPostalCodeMarker(location);
         
-        // Center the map on the new location
         map.setView([location.lat, location.lng], 13);
-        
-        // Open the popup for the new marker
         marker.openPopup();
         
         return {
