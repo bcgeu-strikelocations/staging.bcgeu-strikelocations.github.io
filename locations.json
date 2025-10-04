@@ -1659,7 +1659,8 @@
       ],
       "hours_details": "Monday to Friday, 7:30am-5pm",
       "is_picket_line": true,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1670,7 +1671,8 @@
       ],
       "hours_details": "BC Liquor Store #242 Saanich on strike but picketing at 370-777 Royal Oak Dr",
       "is_picket_line": false,
-      "location_type": "BC Liquor Store"
+      "location_type": "BC Liquor Store",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1681,7 +1683,8 @@
       ],
       "hours_details": "Monday to Friday, 7:30am-3:30pm",
       "is_picket_line": true,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1692,7 +1695,8 @@
       ],
       "hours_details": "on strike but picketing at 1515 Blanshard",
       "is_picket_line": false,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1703,7 +1707,8 @@
       ],
       "hours_details": "Monday to Friday, 7:30am-5pm",
       "is_picket_line": true,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1714,7 +1719,8 @@
       ],
       "hours_details": "Monday to Friday, 7:30am-5pm",
       "is_picket_line": true,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1725,7 +1731,8 @@
       ],
       "hours_details": "Monday to Friday, 7:30am-5pm",
       "is_picket_line": true,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1747,7 +1754,8 @@
       ],
       "hours_details": "on strike but picketing at 675 Belleville",
       "is_picket_line": false,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1758,7 +1766,8 @@
       ],
       "hours_details": "BC Liquor Store #124 Gorge & Tillicum on strike but picketing at 87-1644 Hillside Ave, Victoria",
       "is_picket_line": false,
-      "location_type": "BC Liquor Store"
+      "location_type": "BC Liquor Store",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1769,7 +1778,8 @@
       ],
       "hours_details": "Monday to Friday, 7:30am-5:30pm",
       "is_picket_line": true,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1780,7 +1790,8 @@
       ],
       "hours_details": "Monday to Friday, 7:30am-5pm",
       "is_picket_line": true,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1791,7 +1802,8 @@
       ],
       "hours_details": "Monday to Friday, 7:30am-5pm",
       "is_picket_line": true,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1802,7 +1814,8 @@
       ],
       "hours_details": "BC Liquor Store #140 Cedar Hill on strike but picketing at 370-777 Royal Oak Dr",
       "is_picket_line": false,
-      "location_type": "BC Liquor Store"
+      "location_type": "BC Liquor Store",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1824,7 +1837,8 @@
       ],
       "hours_details": "Monday to Friday, 7:30am-5pm",
       "is_picket_line": true,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1835,7 +1849,8 @@
       ],
       "hours_details": "on strike but picketing at existing picket lines",
       "is_picket_line": false,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1846,7 +1861,8 @@
       ],
       "hours_details": "Monday to Friday, 7:30am-5pm",
       "is_picket_line": true,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1857,7 +1873,8 @@
       ],
       "hours_details": "Monday to Friday, 7:30am-5pm",
       "is_picket_line": true,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1868,7 +1885,8 @@
       ],
       "hours_details": "Monday to Friday, 7am-6pm and Saturday to Sunday, 9am-6pm",
       "is_picket_line": true,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1879,7 +1897,8 @@
       ],
       "hours_details": "Monday to Friday, 7:30am-5pm",
       "is_picket_line": true,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1890,7 +1909,8 @@
       ],
       "hours_details": "Monday to Friday, 7:30am-5pm",
       "is_picket_line": true,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1901,7 +1921,8 @@
       ],
       "hours_details": "on strike but picketing at 675 Belleville",
       "is_picket_line": false,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1912,7 +1933,8 @@
       ],
       "hours_details": "on strike but picketing at 1515 Blanshard",
       "is_picket_line": false,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1923,7 +1945,8 @@
       ],
       "hours_details": "Monday to Friday, 7:30am-5pm",
       "is_picket_line": true,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1934,7 +1957,8 @@
       ],
       "hours_details": "on strike but picketing at 617 Government",
       "is_picket_line": false,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1956,7 +1980,8 @@
       ],
       "hours_details": "Monday to Friday, 7:30am-5pm",
       "is_picket_line": true,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Victoria",
@@ -1967,7 +1992,8 @@
       ],
       "hours_details": "on strike but picketing at 4000 Seymour",
       "is_picket_line": false,
-      "location_type": "Office"
+      "location_type": "Office",
+      "go_to_the_rally": true
     },
     {
       "city": "Westminster",
