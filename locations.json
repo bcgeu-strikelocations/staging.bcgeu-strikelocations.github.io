@@ -630,14 +630,6 @@
     },
     {
       "city": "Langford",
-      "address": "2945 Jacklin Rd",
-      "coordinates": [-123.50653718102623, 48.440662827977455],
-      "hours_details": "",
-      "is_picket_line": true,
-      "location_type": "BC Liquor Store"
-    },
-    {
-      "city": "Langford",
       "address": "600-2945 Jacklin Rd",
       "coordinates": [-123.50653837244776, 48.44068226667487],
       "hours_details": "BC Liquor Store #125 Westshore Monday to Saturday 9am-9pm, Sunday 11am-6pm",
@@ -1622,16 +1614,7 @@
       "hours_details": "Monday to Friday, 7:30am-3:30pm",
       "is_picket_line": true,
       "location_type": "Office",
-      "go_to_the_rally": true
-    },
-    {
-      "city": "Victoria",
-      "address": "1150 Mckenzie",
-      "coordinates": [-123.3605136323701, 48.47130469905112],
-      "hours_details": "",
-      "is_picket_line": true,
-      "location_type": "Office",
-      "go_to_the_rally": true
+      "go_to_the_rally": false
     },
     {
       "city": "Victoria",
@@ -1703,7 +1686,7 @@
       "hours_details": "Monday to Friday, 7:30am-5pm",
       "is_picket_line": true,
       "location_type": "Office",
-      "go_to_the_rally": true
+      "go_to_the_rally": false
     },
     {
       "city": "Victoria",
@@ -1871,7 +1854,7 @@
       "hours_details": "",
       "is_picket_line": true,
       "location_type": "Office",
-      "go_to_the_rally": true
+      "go_to_the_rally": false
     },
     {
       "city": "Victoria",
@@ -1996,7 +1979,7 @@
       "hours_details": "Monday to Friday, 7:30am-5pm",
       "is_picket_line": true,
       "location_type": "Office",
-      "go_to_the_rally": true
+      "go_to_the_rally": false
     },
     {
       "city": "Victoria",
@@ -2372,7 +2355,7 @@
       "hours_details": "Monday to Friday, 7:30am-5pm",
       "is_picket_line": true,
       "location_type": "Office",
-      "go_to_the_rally": true
+      "go_to_the_rally": false
     },
     {
       "city": "Victoria",
